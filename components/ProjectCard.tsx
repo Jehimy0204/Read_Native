@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
   },
   tagText: {
     fontSize: 12,
-    color: '#667eea',
+    color: '#c566eaff',
     fontWeight: '600',
   },
 });

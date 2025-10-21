@@ -6,20 +6,20 @@ export default function ProfileSection() {
     <>
       {/* Header con gradiente */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>MI APP PERSONAL</Text>
+        <Text style={styles.headerTitle}>Mi app personal</Text>
       </View>
 
       {/* Avatar circular */}
       <View style={styles.avatarContainer}>
         <Image
-          source={require('../img/cata.jpg')}
+          source={require('../img/foto.jpeg ')}
           style={styles.avatar}
         />
       </View>
 
       {/* Nombre y profesión */}
       <View style={styles.infoContainer}>
-        <Text style={styles.nombre}>Catalina Perez</Text>
+        <Text style={styles.nombre}>Jehimy Hernandez</Text>
         <Text style={styles.profesion}>Desarrolladora</Text>
       </View>
 
@@ -27,7 +27,7 @@ export default function ProfileSection() {
       <View style={styles.contactCard}>
         <View style={styles.contactItem}>
           <Text style={styles.contactEmoji}>📧</Text>
-          <Text style={styles.contactText}>cp131537@gmail.com</Text>
+          <Text style={styles.contactText}>Jehimy@gmail.com</Text>
         </View>
         <View style={styles.contactItem}>
           <Text style={styles.contactEmoji}>📍</Text>
@@ -35,7 +35,7 @@ export default function ProfileSection() {
         </View>
         <View style={styles.contactItem}>
           <Text style={styles.contactEmoji}>🔗</Text>
-          <Text style={styles.contactText}>https://github.com/CatalinaP19</Text>
+          <Text style={styles.contactText}></Text>
         </View>
       </View>
 
@@ -45,10 +45,10 @@ export default function ProfileSection() {
           <Text style={styles.sectionTitle}>Sobre Mí</Text>
         </View>
         <Text style={styles.bioText}>
-          Apasionada por el desarrollo de aplicaciones móviles innovadoras. 
-          Me especializo en crear experiencias de usuario intuitivas y eficientes 
+          Apasionada por el desarrollo de aplicaciones móviles. 
+          Me especializo en crear buena experiencia de usuario
           utilizando las últimas tecnologías. Siempre en búsqueda de nuevos 
-          desafíos y oportunidades para crecer profesionalmente.
+          desafíos.
         </Text>
       </View>
     </>
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#E0D976',
+    color: '#f9bfdfff',
     letterSpacing: 2,
   },
   avatarContainer: {
